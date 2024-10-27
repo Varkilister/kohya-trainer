@@ -5,4 +5,4 @@ subprocess.run("pip install -q xformers==0.0.28.post2", shell=True, stdout=subpr
 
 print("\033[34mFixing dependencies...\033[0m")
 subprocess.run("pip -q install prodigyopt==1.0 onnxruntime==1.17.3", shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-subprocess.run("pip install -q flax==0.8.5 jax==0.4.26 jaxlib==0.4.26 opencv-python-headless==4.10.0.82", shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+subprocess.run("pip install -q flax==0.8.4 jax==0.4.26 jaxlib==0.4.26 opencv-python-headless", shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
